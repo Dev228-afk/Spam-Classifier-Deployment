@@ -10,11 +10,11 @@ Deployed at: _https://spam-cheker.herokuapp.com/_
 
    **Home Page**:
  
-      ![homepage](readme_resources/1.jpg)
+   ![homepage](readme_resources/1.jpg)
   
    **Resul Page**:
  
-      ![resultpage](readme_resources/2.jpg)
+   ![resultpage](readme_resources/2.jpg)
  
 • Please do ⭐ the repository, if it helped you in anyway.
 
