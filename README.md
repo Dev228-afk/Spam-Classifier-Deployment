@@ -7,6 +7,7 @@
 Deployed at: _https://spam-cheker.herokuapp.com/_
 
 •Here's Glimpse of Web-Page
+
  **Home Page**:
  
   ![homepage](readme_resources/1.jpg)
