@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Spam SMS Detector</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='spam-favicon.ico') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body style="background: linear-gradient(28deg, #a2b5a3d4, #898181, #757575);">
+
+		<!-- Website Title -->
+		<div class="container">
+			<h2 class='container-heading'><span>Spam Detector</span> for Short Message Service (SMS)</h2>
+			<div class='description'>
+
+			</div>
+		</div>
+
+		<!-- Result -->
+		<div class="results">
+			{% if prediction==1 %}
+			<h1>Prediction: <span class='danger'>Gotcha! This is a SPAM Message.</span></h1>
+			<img class="gif" src="{{ url_for('static', filename='spam.webp') }}" alt="SPAM Image">
+			{% elif prediction==0 %}
+			<h1>Prediction: <span class='safe'>Great! This is NOT a SPAM Message.</span></h1>
+			<img class="gif" src="{{ url_for('static', filename='not-spam.webp') }}" alt="Not a spam image">
+			{% endif %}
+		</div>
+
+		<!-- Footer -->
+		<div class='footer'>
+			<div class="contact">
+				<a target="_blank" href="https://github.com/Dev228-afk/Spam-Classifier-Deployment"><i
+						class="fab fa-github fa-lg contact-icon"></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/dev-ansodariya-b616941b9"><i
+						class="fab fa-linkedin fa-lg contact-icon"></i></a>
+			</div>
+			<p class='footer-description'>Made by Dev Ansodariya.</p>
+		</div>
+
+	</body>
+
+</html>

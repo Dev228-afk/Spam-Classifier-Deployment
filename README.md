@@ -1,4 +1,4 @@
-## Spam SMS Classification - Deployment
+# Spam SMS Classification - Deployment
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![NLTK](https://img.shields.io/badge/Library-NLTK-orange.svg)
 
 • This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
@@ -7,14 +7,11 @@
 Deployed at: _https://spam-cheker.herokuapp.com/_
 
 •Here's Glimpse of Web-Page
-
-   **Home Page**:
- 
-   ![homepage](readme_resources/1.jpg)
+ **Home Page**:
+  ![homepage](readme_resources/1.jpg)
   
-   **Resul Page**:
- 
-   ![resultpage](readme_resources/2.jpg)
+ **Resul Page**:
+  ![resultpage](readme_resources/2.jpg)
  
 • Please do ⭐ the repository, if it helped you in anyway.
 
